@@ -23,6 +23,7 @@ fetch('https://randomuser.me/api/')
 
 console.log("Sup?")
 ```
+    # "hello", "sup?", "hi"
 
 ### Question 2
 
@@ -38,6 +39,7 @@ function fetchData(){
 
 fetchData()
 ```
+    # raw API data
 
 What will be console logged when the following code is run? Why?
 
@@ -50,6 +52,7 @@ function fetchData(){
 
 fetchData()
 ```
+    # json file
 
 What will be console logged when the following code is run? Why?
 
@@ -62,17 +65,27 @@ function fetchData(){
 
 fetchData()
 ```
+    # json is default given as an argument to console.log via then
 
 ### Question 3
 
 In your own words: what does asynchronous mean?
 
+    # allow different things to load at different times so that the user isn't waiting 
+
 ### Question 4
 
 Write out the request and response cycle. What is its purpose? How does it work?
+
+    # request is made by the client and the response is given back 
+    # Request: 
+        # get, patch, post, destroy 
+    # Response:  
+        # whatever the server gives back to the client 
 
 ### Question 5
 
 Check out the JSON you get from making a GET request to [this](https://randomuser.me/api/) url (https://randomuser.me/api/).
 
 Open up the Github repository for this reading and view the provided `src/index.html` file in the browser. In `src/index.js`, make an AJAX request to that url when the button is clicked and append the retrieved information to the DOM. Use the labels to append the right data in the appropriate h4's, h3's and img tags.
+
